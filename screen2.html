@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+    <div class="container">
+        <h2>Draggable Item</h2>
+        <div class="row dragable-item">
+            <div class="circle" id="drag1" draggable="true" ondragstart="drag(event)">CH4</div>
+            <div class="circle" id="drag2" draggable="true" ondragstart="drag(event)">C4</div>
+            <div class="circle"   id="drag3" draggable="true" ondragstart="drag(event)">N2</div>
+            <div class="circle"   id="drag4" draggable="true" ondragstart="drag(event)">O2</div>
+
+        </div>
+    </div>
+
+    <div class="container ">
+        <h2>Droppable Area </h2>
+        <div class="row dragable-item">
+            <div class="col area-col">
+                <div class="circle-area" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+                <div class="circle-area" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+                <div class="circle-area" > </div>
+                <div class="circle-area"> </div>
+                <div class="circle-area c5"> </div>
+            </div>
+            <div class="col area-col">
+                <div class="circle-area" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+                <div class="circle-area c2"> </div>
+            </div>
+
+            <div class="col area-col">
+                <div class="circle-area c1" id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="circle-area c3"> </div>
+                <div class="circle-area"> </div>
+                <div class="circle-area c2"> </div>
+            </div>
+        </div>
+        <a class="mybtn" href="screen2.html">SUBMIT</a>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

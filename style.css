@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+}
+nav a {
+  margin-right: 30px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+.col {
+  width: 300px;
+  height: 300px;
+  /* border: 1px solid black; */
+  margin-top: 20px;
+}
+.col div {
+  border-radius: 50%;
+}
+
+.circle1 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+}
+
+.circle2 {
+  transform: translate(25%, 25%);
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+}
+
+.circle3 {
+  transform: translate(148%, 146%);
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+}
+.heading {
+  text-align: center;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+.content {
+  margin: auto;
+  text-align: center;
+}
+.mybtn {
+  position: absolute;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+  margin: auto;
+  align-items: center;
+  border: none;
+  margin-top: 100px;
+}
+
+/* writing the css for screen 2  */
+
+.dragable-item {
+  border: 2px solid #000;
+  height: 200px;
+  justify-content: space-evenly;
+}
+
+.circle {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.top-margin {
+  margin-top: 50px;
+}
+
+.area-col {
+  height: 100px;
+  width: 110px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.circle-area {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #000;
+}
+
+.c5 {
+  position: relative;
+  top: -80px;
+  left: 25px;
+}
+.c2 {
+  position: relative;
+  left: -10px;
+}
+
+.c1 {
+  position: relative;
+  top: 80px;
+  right: 20px;
+}
+
+.c3 {
+  position: relative;
+  top: 20px;
+  right: 70px;
+}
