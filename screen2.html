@@ -17,10 +17,10 @@
     <div class="container">
         <h2>Draggable Item</h2>
         <div class="row dragable-item">
-            <div class="circle" id="drag1" draggable="true" ondragstart="drag(event)">CH4</div>
-            <div class="circle" id="drag2" draggable="true" ondragstart="drag(event)">C4</div>
-            <div class="circle"   id="drag3" draggable="true" ondragstart="drag(event)">N2</div>
-            <div class="circle"   id="drag4" draggable="true" ondragstart="drag(event)">O2</div>
+            <div class="circle" id="drag1" draggable="true" ondragstart="drag(event)">C</div>
+            <div class="circle" id="drag2" draggable="true" ondragstart="drag(event)">H</div>
+            <div class="circle"   id="drag3" draggable="true" ondragstart="drag(event)">N</div>
+            <div class="circle"   id="drag4" draggable="true" ondragstart="drag(event)">O</div>
 
         </div>
     </div>
@@ -29,11 +29,11 @@
         <h2>Droppable Area </h2>
         <div class="row dragable-item">
             <div class="col area-col">
-                <div class="circle-area" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+                <div class="circle-area" > </div>
                 <div class="circle-area" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
                 <div class="circle-area" > </div>
                 <div class="circle-area"> </div>
-                <div class="circle-area c5"> </div>
+                <div class="circle-area c5 id="div1" ondrop="drop(event)" ondragover="allowDrop(event)""></div>
             </div>
             <div class="col area-col">
                 <div class="circle-area" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
@@ -47,7 +47,7 @@
                 <div class="circle-area c2"> </div>
             </div>
         </div>
-        <a class="mybtn" href="screen2.html">SUBMIT</a>
+        <a class="mybtn" id="submit" onclick="submit()" href="screen2.html">SUBMIT</a>
 
     </div>
 

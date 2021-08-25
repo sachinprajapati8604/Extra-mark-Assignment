@@ -12,4 +12,15 @@ function allowDrop(ev) {
     ev.target.appendChild(document.getElementById(data));
   }
 
+
+function submit(){
+  // alert("yuu have submitted")
+}
+
+document.getElementById('div1').addEventListener('drop',(e)=>{
+  e.preventDefault();
+  var node=circle.cloneNode(true);
+  e.target.append(node);
+})
+
  
